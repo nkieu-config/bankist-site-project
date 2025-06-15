@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Bankist</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img class="nav__logo" id="logo" />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Features</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Services</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Reviews</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+              >Get Started</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <h1>
+          Smart
+          <!-- Green highlight effect -->
+          <span class="highlight">banking</span>
+          for<br />
+          <span class="highlight">modern life</span>
+        </h1>
+        <h4>
+          Experience seamless digital banking with advanced security and instant
+          transactions.
+        </h4>
+        <button class="btn--text btn--scroll-to">
+          Discover More &DownArrow;
+        </button>
+        <img
+          src="img/hero.png"
+          class="header__img"
+          alt="Modern banking experience"
+        />
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Features</h2>
+        <h3 class="section__header">
+          Advanced banking features designed for your lifestyle.
+        </h3>
+      </div>
+
+      <div class="features">
+        <img
+          src="img/digital-lazy.jpg"
+          data-src="img/digital.jpg"
+          alt="Digital banking interface"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-monitor"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">100% Digital Banking</h5>
+          <p>
+            Manage your finances entirely online with our cutting-edge digital
+            platform. No physical branches needed - access all banking services
+            24/7 from anywhere in the world with military-grade security.
+          </p>
+        </div>
+
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Smart Investment Tools</h5>
+          <p>
+            Watch your money grow with our AI-powered investment
+            recommendations. Automated savings, smart budgeting insights, and
+            personalized financial advice help you achieve your financial goals
+            faster.
+          </p>
+        </div>
+        <img
+          src="img/grow-lazy.jpg"
+          data-src="img/grow.jpg"
+          alt="Investment growth visualization"
+          class="features__img lazy-img"
+        />
+
+        <img
+          src="img/card-lazy.jpg"
+          data-src="img/card.jpg"
+          alt="Premium debit card"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-credit-card"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Premium Card Benefits</h5>
+          <p>
+            Get your free premium debit card with contactless payments,
+            worldwide acceptance, and exclusive cashback rewards. No annual
+            fees, no hidden charges - just pure value and convenience.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Services</h2>
+        <h3 class="section__header">
+          Everything you need, simplified and streamlined.
+        </h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>Instant Transfers
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>Quick Loans
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>Account Management
+          </button>
+        </div>
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-upload"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Send money anywhere, instantly! Zero fees, maximum speed.
+          </h5>
+          <p>
+            Transfer money to friends, family, or businesses in real-time with
+            our lightning-fast payment system. Whether it's splitting a bill or
+            sending money across the globe, enjoy instant transfers with
+            bank-level security and absolutely no transaction fees.
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-home"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Personal loans approved in minutes, not days.
+          </h5>
+          <p>
+            Need funds for a home renovation, education, or unexpected expenses?
+            Our smart algorithm evaluates your application instantly. Get
+            pre-approved loans with competitive rates, flexible terms, and funds
+            deposited to your account within hours.
+          </p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-user-x"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Complete control over your account, anytime.
+          </h5>
+          <p>
+            Manage every aspect of your banking experience with ease. Update
+            personal information, set spending limits, freeze your card
+            instantly, or close your account if needed - all with just a few
+            taps. Your banking, your rules.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Still deciding?</h2>
+        <h3 class="section__header">
+          Join over 2 million users who've revolutionized their banking.
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide slide--1">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Game-changing banking experience!
+            </h5>
+            <blockquote class="testimonial__text">
+              Switching to Bankist was the best financial decision I've made.
+              The instant transfers saved me so much time, and the investment
+              tools helped me grow my savings by 15% in just six months. The
+              customer service is exceptional, and I love how everything is so
+              intuitive and user-friendly. No more waiting in long bank queues
+              or dealing with complicated paperwork!
+            </blockquote>
+            <address class="testimonial__author">
+              <img
+                src="img/user-1.jpg"
+                alt="Sarah Chen"
+                class="testimonial__photo"
+              />
+              <h6 class="testimonial__name">Sarah Chen</h6>
+              <p class="testimonial__location">San Francisco, USA</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--2">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Perfect for the digital-first generation
+            </h5>
+            <blockquote class="testimonial__text">
+              As a freelancer, I need banking that works as fast as I do.
+              Bankist's instant payments and smart budgeting features have
+              transformed how I manage my finances. The mobile app is incredibly
+              smooth, and I can handle everything from expense tracking to
+              international transfers without any hassle. It's like having a
+              personal financial assistant in my pocket.
+            </blockquote>
+            <address class="testimonial__author">
+              <img
+                src="img/user-2.jpg"
+                alt="Marcus Rodriguez"
+                class="testimonial__photo"
+              />
+              <h6 class="testimonial__name">Marcus Rodriguez</h6>
+              <p class="testimonial__location">London, UK</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--3">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Finally, banking that makes sense
+            </h5>
+            <blockquote class="testimonial__text">
+              After years of frustration with traditional banks, Bankist feels
+              like a breath of fresh air. The loan approval process took just 10
+              minutes, and the interest rates are incredibly competitive. I
+              especially love the spending insights feature that helps me stay
+              on budget. The security features give me peace of mind, and the
+              customer support team is always helpful and responsive.
+            </blockquote>
+            <address class="testimonial__author">
+              <img
+                src="img/user-3.jpg"
+                alt="Emily Thompson"
+                class="testimonial__photo"
+              />
+              <h6 class="testimonial__name">Emily Thompson</h6>
+              <p class="testimonial__location">Toronto, Canada</p>
+            </address>
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          Don't wait for tomorrow - start your smart banking journey today!
+        </h3>
+      </div>
+      <button class="btn btn--show-modal">Open Your Free Account Now!</button>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">About Bankist</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Pricing & Fees</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Terms of Service</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Privacy Policy</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Careers</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Help Center</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Contact Support</a>
+        </li>
+      </ul>
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Start your banking revolution <br />
+        in just <span class="highlight">3 easy steps</span>
+      </h2>
+      <form class="modal__form">
+        <label>First Name</label>
+        <input type="text" />
+        <label>Last Name</label>
+        <input type="text" />
+        <label>Email Address</label>
+        <input type="email" />
+        <button class="btn">Create Account &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
