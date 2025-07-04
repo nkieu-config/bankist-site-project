@@ -14,6 +14,12 @@ A fully-interactive marketing site for the fictional **Bankist** digital bank �
 
 ---
 
+## 📸 Screenshots
+
+<img src="public/screenshot.png" alt="Bankist Site Screenshot" width="100%" height>
+
+---
+
 ## ✨ Key Features
 
 - 🧾 **Modal Window**
